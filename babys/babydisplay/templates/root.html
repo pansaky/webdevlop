@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+		<!--标题栏显示-->
+        <meta http-equiv="Content-Type" content="text/html; color:blue; charset=utf-8">
+        <title>{{dbmodel.title}}</title>
+		<style type="text/css">
+        h1{
+            font-size:120px;
+            color:red;
+            text-align:center;
+        }
+		h2{
+            font-size:80px;
+            color:green;
+            text-align:center;
+        }
+		p{
+            font-size:18px;
+            color:blue;
+            text-align:left;
+        }
+		span{color:yellow;}
+		ul{font-family:"楷体";text-decoration:underline;;font-size:20px;color:#930}
+		div{<!--padding:20px 20px 15px 20px;margin:20px 10px 15px 30px;-->
+			width:800px;
+			height:800px;
+			border:5px red solid;
+		}
+		#div1{float:left}
+		#div2{float:left}
+		address{color:#505}
+        </style>
+    </head>
+    <body>
+	<div id="div1">
+        <h1><strong>LOVE <span>{{TOB}}</span></strong></h1>
+		<p>因为什么这样付出！<br/>我们的希望是什么？</p>
+        <p>回报是幸福的生活中有你有我。</p>
+		<p>我需要做到什么：</p>
+			<ul class="xiuxiu">
+				<li>让她美丽</li>
+				<li>让她开心</li>
+				<li>让她滋润</li>
+				<li>让她随心所欲</li>
+			</ul>
+		<form method="post" action="save.php">
+			LOVE&emsp;&emsp;:<input tybe="text" name="name">
+			<br/>
+			<br/>
+			PassWd&nbsp;&nbsp;:<input tybe="password" name="passwd">
+			<br/>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="click" name="submit">
+			&emsp;&emsp;&emsp;<input type="submit" value="quit" name="submit">
+			<br/>
+			<br/>
+				<label>老婆在心中用什么来代替？</label>
+				<select>
+					<option value="心肝宝贝" selected="selected">心肝宝贝</option>
+					<option value="小恶魔">小恶魔</option
+					<option value="混蛋">混蛋猪</option>
+					<option value="猪">猪猪猪</option>
+					<br/>
+					<br/>&emsp;&emsp;
+					&emsp;<input type="submit" value="选    猪" name="pig">&emsp;
+					<input type="submit" value="还是选猪" name="same pig">
+				</select>
+		</form>
+	</div>
+	<div id="div2">
+		<h2><strong>勉励自己</strong></h2>
+		<p>行动，强于任何形式的语言！</p>
+        <p>每一天的进步，就是踏上巅峰的一个阶梯！<q>JUST DO IT!</q><address>前路艰辛，任重道远！</address></p>
+    </div>
+	<img src="D:\\JPGS\\9L0A7945.jpg" >
+	</body>
+</html>
